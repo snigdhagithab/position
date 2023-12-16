@@ -1,0 +1,27 @@
+/* style a manu */
+
+body {
+  background-image: url(https://fitsmallbusiness.com/wp-content/uploads/2019/03/Screenshot_of_Beige_Minimalist_Elegant_Wedding_Menu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.single-item {
+  padding: 10px 20px;
+  font-family: "Styles";
+  background: palevioletred;
+  text-decoration: none;
+  transform: all 0.3s;
+}
+.single-item:hover {
+  background-color: rgb(217, 75, 122);
+  color: #fff;
+}
